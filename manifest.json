@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "TransBubble",
+  "description": "Translate word with context and show as a bubble.",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "assets/images/icon--disable.png",
+    "default_title": "TransBubble"
+  }, 
+  "icons": {"48": "assets/images/icon.png"},
+  "background": {
+    "page": "main.html"
+  },
+  "permissions": [  
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "storage"
+  ]
+}
